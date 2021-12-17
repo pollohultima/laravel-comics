@@ -1,1 +1,49 @@
 @use 'bootstrap';
+
+/* Variables */
+$brand_color: #0282f9;
+
+
+
+/* Site Header */
+#site_header {
+  .head_cont {
+    height: 120px;
+    width: 1250px;
+    margin: auto;
+
+    .logo {
+      width: 80px;
+    }
+
+    .menu {
+      .text_active {
+        color: $brand_color;
+      }
+      a {
+        margin: 1rem;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 10px;
+        color: black;
+        position: relative;
+      }
+      .active {
+        width: 100%;
+        height: 5px;
+        background-color: $brand_color;
+        position: absolute;
+        bottom: -51px;
+        left: 0;
+      }
+    }
+  }
+}
+
+/* Jumbo */
+.jumbo {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+}
