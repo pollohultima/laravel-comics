@@ -1,6 +1,6 @@
 <header id="site_header">
     <div class="container">
-        <div class="head_cont d-flex justify-content-between align-items-center">
+        <div class="head cont d-flex justify-content-between align-items-center">
             <img src="{{asset('img/dc-logo.png')}}" alt="" class="logo" />
 
 

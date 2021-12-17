@@ -3,13 +3,22 @@
 /* Variables */
 $brand_color: #0282f9;
 
+/* Common */
+.cont{
+    width: 1250px;
+}
+
+.col5 {
+  width: calc(100% / 5);
+  justify-content: center;
+  display: flex;
+}
 
 
 /* Site Header */
 #site_header {
-  .head_cont {
+  .head {
     height: 120px;
-    width: 1250px;
     margin: auto;
 
     .logo {
@@ -47,3 +56,75 @@ $brand_color: #0282f9;
   object-fit: cover;
   object-position: top;
 }
+
+/* Comics */
+
+.comics_content {
+  background-color: #1c1c1c;
+
+  .container {
+    position: relative;
+    .current_series {
+      width: 250px;
+      border: none;
+      background: $brand_color;
+      line-height: 52px;
+      vertical-align: middle;
+      position: absolute;
+      top: -31.5px;
+      left: 0;
+      a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        font-size: 21px;
+      }
+    }
+   
+    .card {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 14px;
+  padding-bottom: 0;
+  background: transparent;
+  img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    object-position: top;
+  }
+  h6 {
+    padding-top: 23px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+}
+
+    .load {
+      display: flex;
+      justify-content: center;
+      button {
+        margin-top: 50px;
+        width: 185px;
+        border: none;
+        background: $brand_color;
+        line-height: 36px;
+        vertical-align: middle;
+        margin-bottom: 20px;
+
+        a {
+          color: white;
+          text-decoration: none;
+          text-align: center;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+
