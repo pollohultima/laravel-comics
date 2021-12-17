@@ -29,6 +29,44 @@
             </button>
         </div>
     </div>
+
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col5">
+                    <div class="icon">
+                        <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="" />
+                        <p>DIGITAL COMICS</p>
+                    </div>
+                </div>
+                <div class="col5">
+                    <div class="icon">
+                        <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="" />
+                        <p>DC MERCHANDISE</p>
+                    </div>
+                </div>
+                <div class="col5">
+                    <div class="icon">
+                        <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="" />
+                        <p>SUBSCRIPTION</p>
+                    </div>
+                </div>
+                <div class="col5">
+                    <div class="icon">
+                        <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="" />
+                        <p>COMIC SHOP LOCATOR</p>
+                    </div>
+                </div>
+                <div class="col5">
+                    <div class="icon">
+                        <img class="visa" src="{{asset('img/buy-dc-power-visa.svg')}}" alt="" />
+                        <p>DC POWER VISA</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 @endsection

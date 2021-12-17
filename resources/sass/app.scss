@@ -17,6 +17,19 @@ $brand_color: #0282f9;
 
 /* Site Header */
 #site_header {
+    .stripe{
+       
+        background-color: $brand_color;
+        .container{
+            height: 25px;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 12px;
+            }
+        }
+    }
+
   .head {
     height: 120px;
     margin: auto;
@@ -33,10 +46,13 @@ $brand_color: #0282f9;
         margin: 1rem;
         text-decoration: none;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 14px;
         color: black;
         position: relative;
       }
+
+
+
       .active {
         width: 100%;
         height: 5px;
@@ -58,7 +74,6 @@ $brand_color: #0282f9;
 }
 
 /* Comics */
-
 .comics_content {
   background-color: #1c1c1c;
 
@@ -125,6 +140,119 @@ $brand_color: #0282f9;
       }
     }
   }
+
+  .banner {
+  height: 150px;
+  background-color: $brand_color;
+  z-index: 1;
+  position: relative;
+ 
+    .icon {
+      display: flex;
+      align-items: center;
+
+      p {
+        padding-left: 1rem;
+        margin-bottom: 0;
+        color: white;
+        font-size: 14px;
+      }
+      img {
+        height: 55px;
+      }
+    }
+    .row {
+      height: 150px;
+    }
+  }
+  .visa {
+    width: 55px;
+  }
 }
 
+/* Site Footer */
+#site_footer {
+  .links {
+    height: 400px;
+    background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .sub_cont {
+      padding-top: 20px ;
+      width: 430px;
+      color: white;
+      h3 {
+        padding: 15px 0 7px 0;
+        font-size: 18px;
+      }
+      ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+            height: 21px;
+          a {
+            text-decoration: none;
+            color: rgba(211, 211, 211, 0.473);
+            font-size: 12px;
+
+            &:hover{
+                color: white;
+                cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+
+    .rights{
+        font-size: 12px;
+         color: rgba(211, 211, 211, 0.473);
+        span{
+            color: $brand_color;
+        }
+    }
+
+    .container {
+      position: relative;
+    }
+    .logo_bg {
+      position: absolute;
+      right: 0;
+      top: -75px;
+    }
+  }
+  .site_end {
+    background-color: #303030;
+    height: 110px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        background: transparent;
+        border-radius: 0px;
+        border: 2px solid $brand_color;
+        padding: 12px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+      .social_media {
+        width: 380px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h6 {
+          font-size: 16px;
+          color: $brand_color;
+        }
+      }
+    }
+  }
+}
 

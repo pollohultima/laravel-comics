@@ -11256,6 +11256,17 @@ textarea.form-control-lg {
 }
 
 /* Site Header */
+#site_header .stripe {
+  background-color: #0282f9;
+}
+#site_header .stripe .container {
+  height: 25px;
+}
+#site_header .stripe .container a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
 #site_header .head {
   height: 120px;
   margin: auto;
@@ -11270,7 +11281,7 @@ textarea.form-control-lg {
   margin: 1rem;
   text-decoration: none;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 14px;
   color: black;
   position: relative;
 }
@@ -11358,4 +11369,109 @@ textarea.form-control-lg {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
+}
+.comics_content .banner {
+  height: 150px;
+  background-color: #0282f9;
+  z-index: 1;
+  position: relative;
+}
+.comics_content .banner .icon {
+  display: flex;
+  align-items: center;
+}
+.comics_content .banner .icon p {
+  padding-left: 1rem;
+  margin-bottom: 0;
+  color: white;
+  font-size: 14px;
+}
+.comics_content .banner .icon img {
+  height: 55px;
+}
+.comics_content .banner .row {
+  height: 150px;
+}
+.comics_content .visa {
+  width: 55px;
+}
+
+/* Site Footer */
+#site_footer .links {
+  height: 400px;
+  background-image: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#site_footer .links .sub_cont {
+  padding-top: 20px;
+  width: 430px;
+  color: white;
+}
+#site_footer .links .sub_cont h3 {
+  padding: 15px 0 7px 0;
+  font-size: 18px;
+}
+#site_footer .links .sub_cont ul {
+  list-style: none;
+  padding-left: 0;
+}
+#site_footer .links .sub_cont ul li {
+  height: 21px;
+}
+#site_footer .links .sub_cont ul li a {
+  text-decoration: none;
+  color: rgba(211, 211, 211, 0.473);
+  font-size: 12px;
+}
+#site_footer .links .sub_cont ul li a:hover {
+  color: white;
+  cursor: pointer;
+}
+#site_footer .links .rights {
+  font-size: 12px;
+  color: rgba(211, 211, 211, 0.473);
+}
+#site_footer .links .rights span {
+  color: #0282f9;
+}
+#site_footer .links .container {
+  position: relative;
+}
+#site_footer .links .logo_bg {
+  position: absolute;
+  right: 0;
+  top: -75px;
+}
+#site_footer .site_end {
+  background-color: #303030;
+  height: 110px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#site_footer .site_end .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#site_footer .site_end .container button {
+  background: transparent;
+  border-radius: 0px;
+  border: 2px solid #0282f9;
+  padding: 12px;
+}
+#site_footer .site_end .container button a {
+  text-decoration: none;
+  color: white;
+}
+#site_footer .site_end .container .social_media {
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#site_footer .site_end .container .social_media h6 {
+  font-size: 16px;
+  color: #0282f9;
 }
