@@ -13,7 +13,7 @@
 
             <nav class="menu">
                 <a href="">CHARACTERS</a>
-                <a href="" class="text_active">COMICS<span class="active"></span></a>
+                <a href="{{route('comics')}}" class="text_active">COMICS<span class="active"></span></a>
                 <a href="">MOVIES</a>
                 <a href="">TV</a>
                 <a href="">GAMES</a>
