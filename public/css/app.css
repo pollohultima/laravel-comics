@@ -11249,6 +11249,11 @@ textarea.form-control-lg {
   width: 1250px;
 }
 
+.comic_cont {
+  width: 1012px;
+  margin: auto;
+}
+
 .col5 {
   width: 20%;
   justify-content: center;
@@ -11394,6 +11399,59 @@ textarea.form-control-lg {
 }
 .comics_content .visa {
   width: 55px;
+}
+
+/* Comic */
+.comic .comic_header {
+  height: 80px;
+  background-color: #0282f9;
+}
+.comic .comic_header .img_wrapper {
+  bottom: 20px;
+  border: 1px solid white;
+  font-size: 14px;
+}
+.comic .comic_header .img_wrapper .comic_label {
+  top: 0px;
+  left: 0px;
+  background-color: #00A9D9;
+}
+.comic .comic_header .img_wrapper .view {
+  bottom: 0px;
+  width: 100%;
+  background-color: #00A9D9;
+}
+.comic .cmc_info {
+  margin-top: 80px;
+}
+.comic .cmc_info .info_wrapper {
+  width: 66.6%;
+}
+.comic .cmc_info .info_wrapper .price_wrapper {
+  height: 47px;
+  background: #55ba59;
+}
+.comic .cmc_info .info_wrapper .price_wrapper .price {
+  width: 73%;
+}
+.comic .cmc_info .info_wrapper .price_wrapper .check {
+  width: 27%;
+  height: 100%;
+  line-height: 47px;
+  border-left: 1px solid #357739;
+  vertical-align: middle;
+}
+.comic .cmc_info .adv {
+  top: -18px;
+  right: 0px;
+  font-size: 14px;
+}
+.comic .cmc_info .adv img {
+  display: block !important;
+}
+.comic .specs_table {
+  margin-top: 80px;
+  background-color: #f6f6f6;
 }
 
 /* Site Footer */

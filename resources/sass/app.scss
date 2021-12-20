@@ -8,6 +8,11 @@ $brand_color: #0282f9;
     width: 1250px;
 }
 
+.comic_cont{
+  width: 1012px;
+  margin: auto;
+}
+
 .col5 {
   width: calc(100% / 5);
   justify-content: center;
@@ -50,8 +55,6 @@ $brand_color: #0282f9;
         color: black;
         position: relative;
       }
-
-
 
       .active {
         width: 100%;
@@ -170,6 +173,72 @@ $brand_color: #0282f9;
   }
 }
 
+/* Comic */
+.comic{
+  .comic_header{
+    height: 80px;
+    background-color: $brand_color;
+    .img_wrapper{
+      bottom: 20px;
+      border: 1px solid white;
+      font-size: 14px;
+      .comic_label{
+        top: 0px;
+        left: 0px;
+        background-color: #00A9D9;
+      }
+      .view{
+        bottom: 0px;
+        width: 100%;
+        background-color: #00A9D9;
+      }
+    }
+  }
+
+  .cmc_info{
+    margin-top: 80px;
+
+    .info_wrapper{
+      width: 66.6%;
+      
+     
+
+      .price_wrapper{
+        height: 47px;
+      background: #55ba59;
+      
+        .price{
+          width: 73%;          
+        }
+  
+        .check{
+          width: 27%;
+          height: 100%;
+          line-height: 47px;
+          border-left: 1px solid #357739;
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .adv{
+      top: -18px;
+      right: 0px;
+      font-size: 14px;
+      img{
+
+        display: block!important;
+      }
+    }
+    
+  }
+
+  .specs_table{
+    margin-top: 80px;
+    background-color: #f6f6f6;
+  }
+}
+
 /* Site Footer */
 #site_footer {
   .links {
@@ -214,11 +283,14 @@ $brand_color: #0282f9;
 
     .container {
       position: relative;
+      
     }
     .logo_bg {
       position: absolute;
       right: 0;
       top: -75px;
+      
+      
     }
   }
   .site_end {
