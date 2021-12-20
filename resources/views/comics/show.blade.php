@@ -48,8 +48,84 @@
 
         <h6>{{$comic['series']}}</h6>
     </div>
-    <div class="specs_table">
+    <div class="specs_table border-top">
+        <div class="comic_cont">
+            <div class="row">
+                <div class="col-6">
+                    <h4 class="my-4">Talent</h4>
+                    <div class="tab d-flex justifiy-content-between my-3 py-3 border-bottom border-top">
+                        <div class="col-4">
+                            <h6>Arts by:</h6>
+                        </div>
 
+                        <div class="col-8 fs_12 text-end">
+
+                            @foreach($comic['artists'] as $artist)
+
+                            <span class="art_list">{{$artist}}</span>
+                            @if(!$loop -> last)
+                            <span class="text-black">,</span>
+
+                            @endif
+                            @endforeach
+                        </div>
+                    </div>
+
+                    <div class="tab d-flex justifiy-content-between mb-3 pb-3 border-bottom">
+                        <div class="col-4">
+                            <h6>Written by:</h6>
+                        </div>
+
+                        <div class="col-8 fs_12 text-end">
+
+                            @foreach($comic['writers'] as $writer)
+
+                            <span class="art_list">{{$writer}}</span>
+                            @if(!$loop -> last)
+                            <span class="text-black">,</span>
+
+                            @endif
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <h4 class="my-4">Specs</h4>
+                    <div class="tab d-flex justifiy-content-between  py-3 border-bottom border-top">
+                        <div class="col-4">
+                            <h6>Series:</h6>
+                        </div>
+
+                        <div class="col-8 fs_12 text-start">
+                            <span class="text-uppercase">{{$comic['series']}}</span>
+                        </div>
+                    </div>
+
+                    <div class="tab d-flex justifiy-content-between py-3 ">
+                        <div class="col-4">
+                            <h6>U.S. Price:</h6>
+                        </div>
+
+                        <div class="col-8 fs_12 text-start">
+                            <span class="text-uppercase text-black">{{$comic['price']}}</span>
+                        </div>
+                    </div>
+
+                    <div class="tab d-flex justifiy-content-between  py-3 border-bottom border-top">
+                        <div class="col-4">
+                            <h6>On Sale Date:</h6>
+                        </div>
+
+                        <div class="col-8 fs_12 text-start">
+                            <span class="text-uppercase text-black">{{$comic['sale_date']}}</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
     </div>
 
 </div>

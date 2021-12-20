@@ -11249,6 +11249,10 @@ textarea.form-control-lg {
   width: 1250px;
 }
 
+.fs_12 {
+  font-size: 12px;
+}
+
 .comic_cont {
   width: 1012px;
   margin: auto;
@@ -11452,6 +11456,13 @@ textarea.form-control-lg {
 .comic .specs_table {
   margin-top: 80px;
   background-color: #f6f6f6;
+  position: relative;
+  z-index: 30;
+  padding-bottom: 100px;
+}
+.comic .specs_table .tab span {
+  color: #0282f9;
+  font-weight: bold;
 }
 
 /* Site Footer */

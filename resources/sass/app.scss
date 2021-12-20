@@ -8,6 +8,10 @@ $brand_color: #0282f9;
     width: 1250px;
 }
 
+.fs_12{
+  font-size: 12px;
+}
+
 .comic_cont{
   width: 1012px;
   margin: auto;
@@ -236,6 +240,19 @@ $brand_color: #0282f9;
   .specs_table{
     margin-top: 80px;
     background-color: #f6f6f6;
+    position: relative;
+    z-index: 30;
+    padding-bottom: 100px;
+
+     .tab{
+      span{
+        color: $brand_color;
+        font-weight: bold;
+      }
+    }
+
+  
+    
   }
 }
 
